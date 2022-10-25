@@ -4,6 +4,7 @@ roles:
     - name: something
     - test: filler
     - name: FILLER-TEXT
+    - test: this-only-exists-in-non-default-branch
   steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
