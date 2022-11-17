@@ -4,6 +4,11 @@ roles:
     - name: something
     - test: filler
     - name: FILLER-TEXT
+    - test: filler-text
+    - name: exclude next result
+    - name: something
+    - test: filler
+    - name: FILLER-TEXT
   steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
